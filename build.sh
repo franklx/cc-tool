@@ -27,6 +27,8 @@ do_clean() {
 
 do_apt() {
     apt-get install \
+        autoconf \
+        libtool \
         build-essential \
         libboost-dev \
         libboost-program-options-dev \
